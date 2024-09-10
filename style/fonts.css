@@ -54,7 +54,7 @@
   url("../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
 }
 
-.body {
+body {
   font-family: "Roboto-Regular", sans-serif;
 }
 
@@ -103,34 +103,34 @@
   font-style: normal;
 }
 
-.size86 {
+.font_size86 {
   font-size: 86px;
 }
 
-.size34 {
+.font_size34 {
   font-size: 34px;
 }
 
-.size32 {
+.font_size32 {
   font-size: 32px;
 }
 
-.size26 {
+.font_size26 {
   font-size: 26px;
 }
 
-.size24 {
+.font_size24 {
   font-size: 24px;
 }
 
-.size20 {
+.font_size20 {
   font-size: 20px;
 }
 
-.size18{
+.font_size18{
   font-size: 18px;
 }
 
-.size16 {
+.font_size16 {
   font-size: 16px;
 }
