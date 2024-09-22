@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/styles.css">
     <title>Mod Studio</title>
 </head>
 <body>
     <header>
-        <div><h1 class="playfair-display-semibold font_size86">Mod</h1></div>
-        <nav>
+        <h1 class="playfair-display-semibold font_size86 logo">Mod</h1>
+        <nav class="nav_bar">
             <ul>
                 <li><a class="roboto-medium font_size24" href="#Biography">Biography</a></li>
                 <li><a class="roboto-medium font_size24" href="#Designers">Disigners</a></li>
@@ -21,25 +22,31 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <h2 class="playfair-display-medium font_size86">Mod Studio</h2> 
-        <p class="roboto-medium font_size20">Modern Web Studio</p>
+    <section class="first_section">
+        <div class="box_logo"> 
+            <h2 class="playfair-display-medium font_size86 ">Mod Studio</h2>
+            <p class="roboto-medium font_size20 ">Modern Web Studio</p>
+        </div>
     </section>
 
     <section id="Biography">
-        <img src="/img/katya.jpg">
-        <div><strong class="roboto-bold font_size24">Biography</strong></div>
-        <section>
-            <h2 class="playfair-display-medium font_size86">Katya Mills</h2>
+        <img class="biography_img" src="/img/katya.jpg">
+        <div>
+            <h2 class="roboto-bold font_size24 biography_biography">Biography</h2>
+        </div>
+        <section class="biography_column">
+            <h2 class="playfair-display-medium font_size86 ">Katya Mills</h2>
             <p class="roboto-medium font_size18">Art Director<br>
                 Scenography / Styling / Creativity Photography / Design</p>
-            <p><strong>-</strong></p>
-            <blockquote class="bitter-regular font_size26">
-                "The more I deal with the work <br>
-                as something that is my own,<br>
-                as something that is personal,<br>
-                the more successful it is."
-            </blockquote>
+            <div>
+                <p><strong>-</strong></p>
+                <blockquote class="bitter-regular font_size26">
+                    "The more I deal with the work <br>
+                    as something that is my own,<br>
+                    as something that is personal,<br>
+                    the more successful it is."
+                </blockquote>
+            </div>
         </section>
     </section>
 
