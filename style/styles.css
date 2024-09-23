@@ -82,3 +82,37 @@ header {
     gap: 36px;
     justify-content: center;
 }
+
+#Testimonials {
+    display: grid;
+    grid-column: 2/13;
+    width: 97%;
+    min-height: 760px;
+    margin-bottom: 135px;
+    grid-template-columns: repeat(12, 7%);
+}
+
+.transform_address_testimonials {
+    transform: rotate(-90deg) translateX(10%);
+}
+
+.address_testimonials {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    
+    justify-content: center;
+    gap: 70px;
+}
+
+.img_testimonials {
+    grid-column: 3/7;
+}
+
+.testimonials_testimonials {
+    grid-column: 7/8;
+}
+
+.text_testimonials {
+    grid-column: 9/11;   
+}
