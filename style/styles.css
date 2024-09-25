@@ -86,10 +86,12 @@ header {
 #Testimonials {
     display: grid;
     grid-column: 2/13;
-    width: 97%;
+    width: 100%;
     min-height: 760px;
     margin-bottom: 135px;
-    grid-template-columns: repeat(12, 7%);
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: end;
+    column-gap: 20px;
 }
 
 .transform_address_testimonials {
@@ -100,19 +102,35 @@ header {
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    
-    justify-content: center;
-    gap: 70px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .img_testimonials {
     grid-column: 3/7;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 .testimonials_testimonials {
     grid-column: 7/8;
+    align-self: start;
 }
 
-.text_testimonials {
-    grid-column: 9/11;   
+.transform {
+    transform: rotate(-90deg) translateX(-5%);
+    padding-bottom: 100px;
+}
+
+.text_img_testimonials {
+    display: flex;
+    flex-direction: column;
+    gap:42px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    grid-column: 9/11;
+    width: 100%;
+    min-height: 221px;
 }
