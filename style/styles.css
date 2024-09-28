@@ -134,3 +134,26 @@ header {
     width: 100%;
     min-height: 221px;
 }
+
+.slovo_Designers {
+    padding-left: 9%;
+
+}
+
+.photo_designers {
+    width:98.6%;
+    padding-left: 1.4%;
+    padding-top: 30px;
+    display:flex;
+    margin-bottom:135px;
+    gap:20px;
+    overflow:scroll;
+    object-fit: cover;
+    align-items:baseline;
+    overflow-y: hidden;
+}
+
+.gap_designers {
+    padding-top: 24px;
+}
+
