@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "Bitter-light";
+  src:local("Bitter-light"),
+  local("Bitter-Light"),
+  url("../fonts/Bitter/static/Bitter-ExtraLight.ttf");
+}
+
+@font-face {
   font-family: "Roboto-Medium";
   src: local("Roboto-Medium"),
   local("Roboto-Medium"),
@@ -54,6 +61,13 @@
   url("../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "Playfair Display Regular";
+  src: local("Playfair Display Regular"),
+  local("PlayfairDisplay-Regular"),
+  url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
 body {
   font-family: "Roboto-Regular", sans-serif;
 }
@@ -69,6 +83,13 @@ body {
   font-family: "Playfair Display SemiBold", serif;
   font-optical-sizing: auto;
   font-weight: 600;
+  font-style: normal;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display Regular", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -88,6 +109,13 @@ body {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+.bitter-light {
+  font-family: "Bitter-light", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -133,4 +161,8 @@ body {
 
 .font_size16 {
   font-size: 16px;
+}
+
+.font_size70 {
+  font-size: 70px;
 }
