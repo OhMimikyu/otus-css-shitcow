@@ -13,6 +13,13 @@
 }
 
 @font-face {
+  font-family: "Bitter-regular";
+  src:local("Bitter-regular"),
+  local("Bitter-Regular"),
+  url("../fonts/Bitter/static/Bitter-Regular.ttf");
+}
+
+@font-face {
   font-family: "Roboto-Medium";
   src: local("Roboto-Medium"),
   local("Roboto-Medium"),
@@ -119,6 +126,13 @@ body {
   font-style: normal;
 }
 
+.bitter-regular {
+  font-family: "Bitter-regular", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .roboto-bold {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
@@ -167,10 +181,27 @@ body {
   font-size: 30px;
 }
 
+.font_size40 {
+  font-size: 40px;
+}
+
+.font_size46 {
+  font-size: 46px;
+}
+
 .font_size64 {
   font-size: 64px;
 }
 
 .font_size70 {
   font-size: 70px;
+}
+
+@media screen and (min-width:350px) and (max-width:800px) {
+  .playfair-display-medium {
+    font-family: "Playfair Display Regular", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
