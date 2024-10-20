@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "Bitter";
+  src:local("Bitter"),
+  local("Bitter-VariableFont_wght"),
+  url("../fonts/Bitter/Bitter-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Bitter-light";
+  src:local("Bitter-light"),
+  local("Bitter-Light"),
+  url("../fonts/Bitter/static/Bitter-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Bitter-regular";
+  src:local("Bitter-regular"),
+  local("Bitter-Regular"),
+  url("../fonts/Bitter/static/Bitter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: local("Roboto-Medium"),
+  local("Roboto-Medium"),
+  url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"),
+  local("Roboto-Regular"),
+  url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"),
+  local("Roboto-Bold"),
+  url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: local("Roboto-Black"),
+  local("Roboto-Black"),
+  url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+  local("PlayfairDisplay-VariableFont_wght"),
+  url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display Medium";
+  src: local("Playfair Display Medium"),
+  local("PlayfairDisplay-Medium"),
+  url("../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display SemiBold";
+  src: local("Playfair Display SemiBold"),
+  local("PlayfairDisplay-SemiBold"),
+  url("../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display Regular";
+  src: local("Playfair Display Regular"),
+  local("PlayfairDisplay-Regular"),
+  url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
+body {
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.playfair-display-medium {
+  font-family: "Playfair Display Medium", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playfair-display-semibold {
+  font-family: "Playfair Display SemiBold", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display Regular", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bitter-regular {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bitter-light {
+  font-family: "Bitter-light", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bitter-regular {
+  font-family: "Bitter-regular", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto-Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font_size86 {
+  font-size: 86px;
+}
+
+.font_size34 {
+  font-size: 34px;
+}
+
+.font_size32 {
+  font-size: 32px;
+}
+
+.font_size26 {
+  font-size: 26px;
+}
+
+.font_size24 {
+  font-size: 24px;
+}
+
+.font_size20 {
+  font-size: 20px;
+}
+
+.font_size18{
+  font-size: 18px;
+}
+
+.font_size16 {
+  font-size: 16px;
+}
+
+.font_size30 {
+  font-size: 30px;
+}
+
+.font_size40 {
+  font-size: 40px;
+}
+
+.font_size46 {
+  font-size: 46px;
+}
+
+.font_size64 {
+  font-size: 64px;
+}
+
+.font_size70 {
+  font-size: 70px;
+}
+
+@media screen and (min-width:350px) and (max-width:800px) {
+  .playfair-display-medium {
+    font-family: "Playfair Display Regular", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
